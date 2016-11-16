@@ -13,7 +13,8 @@ apt-get -y install \
     nginx \
     openjdk-7-jdk \
     maven \
-    npm
+    npm \
+    git
 
 # /usr/bin/node is required by bower
 if [ ! -e /usr/bin/node ]; then
